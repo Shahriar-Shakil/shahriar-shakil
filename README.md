@@ -1,3 +1,4 @@
+[![MasterHead](./assets/my-desk.jpeg)](https://shahriar.netlify.app/)
 <h1 align="center">Hi 👋, I'm Shahriar Shakil</h1>
 <h3 align="center">A passionate frontend developer from Bangladesh</h3>
 <img align="right" alt="Coding" width="400" src="./assets/image-1.gif"/>
@@ -5,9 +6,9 @@
 
 <p align="left"> <a href="https://twitter.com/devshahriar" target="blank"><img src="https://img.shields.io/twitter/follow/devshahriar?logo=twitter&style=for-the-badge" alt="devshahriar" /></a> </p>
 
-- 🔭 I’m currently working on **MERN Steak.**
+- 🔭 I’m currently working on **MERN Stack.**
 
-- 🌱 I’m currently learning **Full steak web development.**
+- 🌱 I’m currently learning **Full Stack web development.**
 
 - 👨‍💻 All of my projects are available at [https://shahriar.netlify.app/](https://shahriar.netlify.app/)
 
