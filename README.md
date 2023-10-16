@@ -1,4 +1,5 @@
 [![MasterHead](./assets/image-5.gif)](https://shahriar.netlify.app/)
+
 <h1 align="center">Hi 👋, I'm Shahriar Shakil</h1>
 <h3 align="center">A passionate frontend developer from Bangladesh</h3>
 <img align="right" alt="Coding" width="400" src="./assets/image-1.gif"/>
@@ -21,8 +22,8 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/devshahriar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="devshahriar" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/shahriar-shakil/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/shahriar-shakil/" height="30" width="40" /></a>
-<a href="https://fb.com/https://www.facebook.com/profile.php?id=61552534251918" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/profile.php?id=61552534251918" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/shahriar-shakil/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/shahriar-shakil/" height="30" width="40" /></a>
+<a href="https://www.facebook.com/profile.php?id=61552534251918" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/profile.php?id=61552534251918" height="30" width="40" /></a>
 <a href="https://leetcode.com/shahriar-shakil/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/shahriar-shakil/" height="30" width="40" /></a>
 </p>
 
@@ -34,4 +35,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shahriar-shakil&show_icons=true&locale=en" alt="shahriar-shakil" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shahriar-shakil&" alt="shahriar-shakil" /></p>
-
