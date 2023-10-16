@@ -11,13 +11,13 @@
 
 - 🌱 I’m currently learning **Full Stack web development.**
 
-- 👨‍💻 All of my projects are available at [https://shahriar.netlify.app/](https://shahriar.netlify.app/)
+- 👨‍💻 All of my projects are available at [here.](https://shahriar.netlify.app/)
 
 - 💬 Ask me about **Next JS, React and Front-end Development.**
 
 - 📫 How to reach me **toshahriarshakil@gmail.com**
 
-- 📄 Know about my experiences [https://app.enhancv.com/share/f5e4960a/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic](https://app.enhancv.com/share/f5e4960a/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic)
+- 📄 Know about my experiences [here.](https://app.enhancv.com/share/f5e4960a/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
