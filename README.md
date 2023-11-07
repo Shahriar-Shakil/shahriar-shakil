@@ -1,4 +1,4 @@
-[![MasterHead](./assets/image-5.gif)](https://shahriar.netlify.app/)
+[![MasterHead](./assets/LinkedIn-Banner.png)](https://shahriar.netlify.app/)
 
 <h1 align="center">Hi 👋, I'm Shahriar Shakil</h1>
 <h3 align="center">A passionate frontend developer from Bangladesh</h3>
