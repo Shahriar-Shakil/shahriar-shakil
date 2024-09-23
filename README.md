@@ -1,19 +1,17 @@
 [![MasterHead](./assets/LinkedIn-Banner.png)](https://shahriar.netlify.app/)
 
 <h1 align="center">Hi 👋, I'm Shahriar Shakil</h1>
-<h3 align="center">A passionate frontend developer from Bangladesh</h3>
+<h3 align="center">A passionate web developer from Bangladesh</h3>
 <img align="right" alt="Coding" width="400" src="./assets/image-1.gif"/>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shahriar-shakil&label=Profile%20views&color=0e75b6&style=flat" alt="shahriar-shakil" /> </p>
 
 <p align="left"> <a href="https://twitter.com/devshahriar" target="blank"><img src="https://img.shields.io/twitter/follow/devshahriar?logo=twitter&style=for-the-badge" alt="devshahriar" /></a> </p>
 
-- 🔭 I’m currently working on **MERN Stack.**
-
-- 🌱 I’m currently learning **Full Stack web development.**
+- 🔭 I’m currently working on **MERN and Ruby on Rails.** 
 
 - 👨‍💻 All of my projects are available at [here.](https://shahriar.netlify.app/)
 
-- 💬 Ask me about **Next JS, React and Front-end Development.**
+- 💬 Ask me about **Next JS, Ruby on Rails and Front-end Development.**
 
 - 📫 How to reach me **toshahriarshakil@gmail.com**
 
