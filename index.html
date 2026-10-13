@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>EdgeProp Hub</title>
+  <meta name="description" content="EdgeProp Trading Hub – official links to Get Funded, Help Center, Blog, Platforms and Community." />
+
+  <!-- DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Optional: GA4 (replace G-XXXXXXXXXX) -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
+
+  <!-- Optional: Meta Pixel (replace YOUR_PIXEL_ID) -->
+  <!--
+  <script>
+    !function(f,b,e,v,n,t,s){
+      if(f.fbq)return; n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n; n.push=n; n.loaded=!0; n.version='2.0';
+      n.queue=[]; t=b.createElement(e); t.async=!0;
+      t.src=v; s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)
+    }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'YOUR_PIXEL_ID');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"
+  /></noscript>
+  -->
+
+  <style>
+    :root {
+      --bg: #18181b;
+      --bg-elevated: #1f1f23;
+      --card: #232328;
+      --card-hover: #2a2a2f;
+      --border: #33333a;
+      --border-hover: #f97316;
+      --text: #fafafa;
+      --text-muted: #a1a1aa;
+      --text-dim: #71717a;
+      --accent: #f97316;
+      --accent-hover: #ea580c;
+      --focus: #f97316;
+      --shadow-sm: 0 1px 2px 0 rgba(0,0,0,.05);
+      --shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px -1px rgba(0,0,0,.1);
+      --shadow-md: 0 4px 6px -1px rgba(0,0,0,.1), 0 2px 4px -2px rgba(0,0,0,.1);
+      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -4px rgba(0,0,0,.1);
+      --radius: 12px;
+      --radius-lg: 16px;
+      --transition-fast: 120ms ease-out;
+      --transition: 160ms ease-out;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      :root {
+        --transition-fast: 0ms;
+        --transition: 0ms;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      margin: 0;
+      font-family: "DM Sans", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100dvh;
+      display: flex;
+      justify-content: center;
+      padding: 48px 20px 60px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
+
+    .wrap { width: 100%; max-width: 440px; }
+
+    /* Entrance animation */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .wrap > * {
+      animation: fadeUp var(--transition) ease-out backwards;
+    }
+    .topbar { animation-delay: 0ms; }
+    .logo { animation-delay: 60ms; }
+    .list { animation-delay: 120ms; }
+    .footer { animation-delay: 180ms; }
+    .footer-links { animation-delay: 200ms; }
+
+    /* Top Bar */
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 40px;
+      gap: 16px;
+    }
+
+    .lang {
+      display: flex;
+      gap: 8px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 4px;
+    }
+
+    .lang button {
+      background: none;
+      border: 0;
+      padding: 8px 16px;
+      cursor: pointer;
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0.3px;
+      border-radius: 999px;
+      transition: color var(--transition-fast), background var(--transition-fast);
+      font-family: inherit;
+    }
+
+    .lang button:hover { color: var(--text); }
+    .lang button.active {
+      color: var(--text);
+      background: var(--accent);
+      box-shadow: var(--shadow-sm);
+    }
+    .lang button:focus-visible {
+      outline: 2px solid var(--focus);
+      outline-offset: 2px;
+    }
+
+    .share {
+      width: 44px;
+      height: 44px;
+      border-radius: 999px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: border-color var(--transition-fast), color var(--transition-fast), background var(--transition-fast), transform var(--transition-fast);
+      font-size: 20px;
+      line-height: 1;
+      flex-shrink: 0;
+    }
+
+    .share:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      background: var(--card-hover);
+    }
+    .share:active { transform: scale(0.96); }
+    .share:focus-visible {
+      outline: 2px solid var(--focus);
+      outline-offset: 2px;
+    }
+
+    /* Logo */
+    .logo {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .logo img {
+      height: 64px;
+      width: auto;
+      filter: drop-shadow(0 4px 12px rgba(249, 115, 22, 0.15));
+      transition: filter var(--transition);
+    }
+    .logo:hover img {
+      filter: drop-shadow(0 8px 24px rgba(249, 115, 22, 0.25));
+    }
+
+    /* List */
+    .list { display: flex; flex-direction: column; gap: 12px; }
+
+    .item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      text-align: center;
+      padding: 18px 20px;
+      border-radius: var(--radius-lg);
+      background: var(--card);
+      border: 1px solid var(--border);
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 15px;
+      letter-spacing: -0.01em;
+      transition: border-color var(--transition-fast), background var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .item::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, transparent, rgba(249,115,22,.08), transparent);
+      transform: translateX(-100%);
+      transition: transform 400ms ease-out;
+    }
+
+    .item:hover {
+      border-color: var(--border-hover);
+      background: var(--card-hover);
+      box-shadow: var(--shadow-md);
+      transform: translateY(-1px);
+    }
+
+    .item:hover::before {
+      transform: translateX(100%);
+    }
+
+    .item:active {
+      transform: translateY(0) scale(0.99);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .item:focus-visible {
+      outline: 2px solid var(--focus);
+      outline-offset: 2px;
+    }
+
+    .item-icon {
+      width: 22px;
+      height: 22px;
+      flex-shrink: 0;
+      color: var(--accent);
+      opacity: 0.9;
+      transition: transform var(--transition-fast), opacity var(--transition-fast);
+    }
+
+    .item:hover .item-icon {
+      transform: translateX(2px);
+      opacity: 1;
+    }
+
+    .item-text { flex: 1; }
+
+    /* Stagger item animations */
+    .item:nth-child(1) { animation-delay: 140ms; }
+    .item:nth-child(2) { animation-delay: 180ms; }
+    .item:nth-child(3) { animation-delay: 220ms; }
+    .item:nth-child(4) { animation-delay: 260ms; }
+    .item:nth-child(5) { animation-delay: 300ms; }
+
+    /* Footer */
+    .footer {
+      margin-top: 48px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-dim);
+      line-height: 1.5;
+      font-weight: 400;
+    }
+
+    .footer-links {
+      margin-top: 16px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 500;
+      transition: color var(--transition-fast);
+      position: relative;
+    }
+
+    .footer-links a::after {
+      content: "";
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: var(--accent);
+      transform: scaleX(0);
+      transform-origin: center;
+      transition: transform var(--transition);
+    }
+
+    .footer-links a:hover {
+      color: var(--text);
+    }
+
+    .footer-links a:hover::after {
+      transform: scaleX(1);
+    }
+
+    .footer-links a:focus-visible {
+      outline: 2px solid var(--focus);
+      outline-offset: 2px;
+      border-radius: 2px;
+    }
+
+    /* Mobile adjustments */
+    @media (max-width: 440px) {
+      body { padding: 36px 16px 48px; }
+      .topbar { margin-bottom: 32px; }
+      .logo { margin-bottom: 32px; }
+      .logo img { height: 56px; }
+      .item { padding: 16px 18px; font-size: 14px; }
+      .lang button { padding: 7px 14px; font-size: 12px; }
+      .share { width: 40px; height: 40px; }
+      .footer { margin-top: 40px; }
+    }
+
+    /* High contrast mode support */
+    @media (prefers-contrast: high) {
+      :root {
+        --border: #555;
+        --text-muted: #ccc;
+      }
+      .item { border-width: 2px; }
+      .lang { border-width: 2px; }
+      .share { border-width: 2px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <!-- Top Bar -->
+    <div class="topbar">
+      <div class="lang" aria-label="Language selector" role="group">
+        <button id="btn-en" class="active" type="button" aria-pressed="true">EN</button>
+        <button id="btn-ro" type="button" aria-pressed="false">RO</button>
+      </div>
+
+      <button class="share" id="shareBtn" type="button" aria-label="Share EdgeProp Hub">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="18" cy="5" r="3"></circle>
+          <circle cx="6" cy="12" r="3"></circle>
+          <circle cx="18" cy="19" r="3"></circle>
+          <path d="M8.59 13.51a5 5 0 0 1 7.41 0"></path>
+          <path d="M8.59 10.49a5 5 0 0 0 7.41 0"></path>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Logo -->
+    <div class="logo">
+      <img
+        src="https://edgeprop-email-assets.s3.eu-north-1.amazonaws.com/Orange+%26+White+logo+svg.svg"
+        alt="EdgeProp"
+        width="180"
+        height="64"
+      />
+    </div>
+
+    <!-- List -->
+    <div class="list" id="list" role="list"></div>
+
+    <!-- Footer -->
+    <div class="footer" id="footerText"></div>
+    <div class="footer footer-links">
+      <a href="https://edgeproptrading.com/terms" target="_blank" rel="noopener">Terms</a>
+      <a href="https://edgeproptrading.com/privacy-policy" target="_blank" rel="noopener">Privacy</a>
+    </div>
+  </div>
+
+  <script>
+    // Config
+    const HUB_URL = "https://hub.edgeproptrading.com";
+
+    const content = {
+      en: {
+        items: [
+          { title: "Get Funded with EdgeProp", link: "https://edgeproptrading.com/?plan=edge50", icon: "funded" },
+          { title: "Help Center", link: "https://edgeproptrading.com/help-center", icon: "help" },
+          { title: "Blog & Trading Insights", link: "https://edgeproptrading.com/blog", icon: "blog" },
+          { title: "Trading Platforms", link: "https://edgeproptrading.com/platforms", icon: "platforms" },
+          { title: "Community & Discord", link: "https://edgeproptrading.com/discord", icon: "discord" },
+        ],
+        footer: "© EdgeProp Trading · Empower Your Edge. Fund Your Future.",
+        shareTitle: "EdgeProp Trading",
+        shareText: "Professional Futures Prop Trading",
+      },
+      ro: {
+        items: [
+          { title: "Get Funded cu EdgeProp", link: "https://edgeproptrading.com/?plan=edge50", icon: "funded" },
+          { title: "Help Center", link: "https://edgeproptrading.com/help-center", icon: "help" },
+          { title: "Blog & Educație Trading", link: "https://edgeproptrading.com/blog", icon: "blog" },
+          { title: "Platforme de Trading", link: "https://edgeproptrading.com/platforms", icon: "platforms" },
+          { title: "Comunitate & Discord", link: "https://edgeproptrading.com/discord", icon: "discord" },
+        ],
+        footer: "© EdgeProp Trading · Empower Your Edge. Fund Your Future.",
+        shareTitle: "EdgeProp Trading",
+        shareText: "Prop trading profesional pe futures",
+      }
+    };
+
+    // SVG Icons
+    const icons = {
+      funded: `<svg class="item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>`,
+      help: `<svg class="item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg>`,
+      blog: `<svg class="item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>`,
+      platforms: `<svg class="item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"></rect><path d="M8 21h8"></path><path d="M12 17v4"></path></svg>`,
+      discord: `<svg class="item-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>`
+    };
+
+    // Auto language detect
+    let lang = (navigator.language || "en").toLowerCase().startsWith("ro") ? "ro" : "en";
+
+    const elList = document.getElementById("list");
+    const elFooter = document.getElementById("footerText");
+    const btnEn = document.getElementById("btn-en");
+    const btnRo = document.getElementById("btn-ro");
+
+    function trackClick(label) {
+      if (window.gtag) {
+        window.gtag("event", "hub_click", {
+          event_category: "Hub",
+          event_label: label
+        });
+      }
+      if (window.fbq) {
+        window.fbq("trackCustom", "HubClick", { label });
+      }
+    }
+
+    function render() {
+      // Toggle buttons
+      btnEn.classList.toggle("active", lang === "en");
+      btnRo.classList.toggle("active", lang === "ro");
+      btnEn.setAttribute("aria-pressed", lang === "en");
+      btnRo.setAttribute("aria-pressed", lang === "ro");
+
+      // List
+      elList.innerHTML = "";
+      content[lang].items.forEach((item) => {
+        const a = document.createElement("a");
+        a.className = "item";
+        a.href = item.link;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.innerHTML = `${icons[item.icon]}<span class="item-text">${item.title}</span>`;
+        a.addEventListener("click", () => trackClick(item.title));
+        elList.appendChild(a);
+      });
+
+      // Footer
+      elFooter.textContent = content[lang].footer;
+    }
+
+    btnEn.addEventListener("click", () => { lang = "en"; render(); });
+    btnRo.addEventListener("click", () => { lang = "ro"; render(); });
+
+    // Share button
+    document.getElementById("shareBtn").addEventListener("click", async () => {
+      const t = content[lang];
+      try {
+        if (navigator.share) {
+          await navigator.share({ title: t.shareTitle, text: t.shareText, url: HUB_URL });
+        } else {
+          await navigator.clipboard.writeText(HUB_URL);
+          const btn = document.getElementById("shareBtn");
+          const originalHTML = btn.innerHTML;
+          btn.innerHTML = `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent)"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+          btn.style.color = "var(--accent)";
+          btn.style.borderColor = "var(--accent)";
+          setTimeout(() => {
+            btn.innerHTML = originalHTML;
+            btn.style.color = "";
+            btn.style.borderColor = "";
+          }, 1500);
+        }
+      } catch (e) {
+        // User canceled share, ignore
+      }
+    });
+
+    render();
+  </script>
+</body>
+</html>

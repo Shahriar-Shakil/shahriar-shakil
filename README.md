@@ -1,29 +1,80 @@
+<!-- Profile README for github.com/shahriar-shakil. Save as README.md in the repo named shahriar-shakil/shahriar-shakil -->
 
+<div align="center">
 
-<h1 align="center">Hi, I'm Shahriar Shakil</h1>
-<h3 align="center">A passionate web developer from Bangladesh</h3>
-<img align="right" alt="Coding" width="400" src="./assets/image-1.gif"/>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shahriar-shakil&label=Profile%20views&color=0e75b6&style=flat" alt="shahriar-shakil" /> </p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:0f172a,100:2563eb&section=header&text=Shahriar%20Shakil&fontColor=ffffff&fontSize=44&fontAlignY=38&desc=I%20help%20you%20build%20your%20business%20from%20A%20to%20Z&descSize=16&descAlignY=58" alt="Shahriar Shakil, I help you build your business from A to Z" />
 
-<p align="left"> <a href="https://twitter.com/devshahriar" target="blank"><img src="https://img.shields.io/twitter/follow/devshahriar?logo=twitter&style=for-the-badge" alt="devshahriar" /></a> </p>
+<a href="https://github.com/shahriar-shakil">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=20&pause=1800&color=2563EB&center=true&vCenter=true&width=640&lines=From+idea+to+a+working+business;Website%2C+AI+automation+and+getting+customers;One+person+for+the+whole+job;Open+to+new+projects" alt="Idea to working business, website, AI automation and customers, one person for the whole job" />
+</a>
 
-- 🔭 I’m currently working on **MERN and Ruby on Rails.** 
+<br />
 
-- 👨‍💻 All of my projects are available at [here.](https://shahriar.netlify.app/)
+<a href="mailto:shahriarshakil@gmail.com?subject=Let%27s%20build%20my%20business&body=Hi%20Shahriar%2C%20I%20want%20to%20talk%20about...">
+  <img src="https://img.shields.io/badge/Email_me-2563eb?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me" />
+</a>
+<a href="https://www.linkedin.com/in/shahriar-shakil/">
+  <img src="https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="https://shahriar.netlify.app/">
+  <img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio" />
+</a>
+<a href="https://app.enhancv.com/share/f5e4960a/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic">
+  <img src="https://img.shields.io/badge/Resume-0f172a?style=for-the-badge&logo=readme&logoColor=white" alt="Resume" />
+</a>
+<a href="https://twitter.com/devshahriar">
+  <img src="https://img.shields.io/badge/X-0f172a?style=for-the-badge&logo=x&logoColor=white" alt="X (Twitter)" />
+</a>
 
-- 💬 Ask me about **Next JS, Ruby on Rails and Front-end Development.**
+<br /><br />
 
-- 📫 How to reach me **toshahriarshakil@gmail.com**
+<img src="https://img.shields.io/badge/Availability-Open_for_new_projects-16a34a?style=flat-square" alt="Availability: open for new projects" />
+<img src="https://img.shields.io/badge/Timezone-GMT%2B6_(Bangladesh)-475569?style=flat-square" alt="Timezone: GMT+6" />
+<img src="https://img.shields.io/badge/Reply_time-within_24_hours-475569?style=flat-square" alt="Reply time: within 24 hours" />
 
-- 📄 Know about my experiences [here.](https://app.enhancv.com/share/f5e4960a/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic)
+</div>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/devshahriar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="devshahriar" height="30" width="40" /></a>
-<a href="https://www.linkedin.com/in/shahriar-shakil/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/shahriar-shakil/" height="30" width="40" /></a>
-<a href="https://www.facebook.com/profile.php?id=61552534251918" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/profile.php?id=61552534251918" height="30" width="40" /></a>
-<a href="https://leetcode.com/shahriar-shakil/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/shahriar-shakil/" height="30" width="40" /></a>
-</p>
+<br />
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://mochajs.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mochajs/mochajs-icon.svg" alt="mocha" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> </p>
+## About me
+
+I'm a full-stack developer with 5+ years of experience. With AI, one person can now do what used to take a whole team, so I take on the whole job: from the first idea to a business that is live and getting customers.
+
+You talk to one person, not five.
+
+## What I can do for your business
+
+| Stage | What I do |
+| --- | --- |
+| **Plan** | Research your market and customers, shape the offer and decide what to build first |
+| **Build** | A professional website or app that looks good on mobile and is ready to take orders, bookings or sign-ups |
+| **Automate** | AI that handles the repetitive work: replying to customers, capturing leads, writing reports and entering data |
+| **Get customers** | A strong online presence, customer reviews, and simple marketing that brings people in |
+| **Run and improve** | Ongoing support, fixes and updates as your business grows |
+
+## How we work together
+
+1. You send a short message about your idea or your business.
+2. We talk, and I reply with a clear plan, timeline and price.
+3. I build and launch in small steps, and you see progress every week.
+4. After launch I stay available to fix, improve and grow things with you.
+
+<div align="center">
+
+<a href="mailto:shahriarshakil@gmail.com?subject=Let%27s%20build%20my%20business&body=Hi%20Shahriar%2C%20I%20want%20to%20talk%20about...">
+  <img src="https://img.shields.io/badge/Tell_me_about_your_business-2563eb?style=for-the-badge" alt="Tell me about your business" />
+</a>
+
+</div>
+
+<br />
+
+<div align="center">
+
+**Have an idea or a business to grow?** The fastest way to reach me is email: [shahriarshakil@gmail.com](mailto:shahriarshakil@gmail.com)
+
+[Portfolio](https://shahriar.netlify.app/) | [Resume](https://app.enhancv.com/share/f5e4960a/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic) | [LinkedIn](https://www.linkedin.com/in/shahriar-shakil/)
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:2563eb,100:0f172a&section=footer" alt="" />
+
+</div>
