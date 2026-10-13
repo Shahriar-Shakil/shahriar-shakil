@@ -10,8 +10,11 @@
 
 <br />
 
-<a href="mailto:shahriarshakil@gmail.com?subject=Let%27s%20build%20my%20business&body=Hi%20Shahriar%2C%20I%20want%20to%20talk%20about...">
+<a href="mailto:toshahriarshakil@gmail.com?subject=Let%27s%20build%20my%20business&body=Hi%20Shahriar%2C%20I%20want%20to%20talk%20about...">
   <img src="https://img.shields.io/badge/Email_me-2563eb?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me" />
+</a>
+<a href="https://wa.me/8801780503417?text=Hi%20Shahriar%2C%20I%20want%20to%20talk%20about%20my%20business">
+  <img src="https://img.shields.io/badge/WhatsApp-16a34a?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Message me on WhatsApp" />
 </a>
 <a href="https://www.linkedin.com/in/shahriar-shakil/">
   <img src="https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -61,7 +64,7 @@ You talk to one person, not five.
 
 <div align="center">
 
-<a href="mailto:shahriarshakil@gmail.com?subject=Let%27s%20build%20my%20business&body=Hi%20Shahriar%2C%20I%20want%20to%20talk%20about...">
+<a href="mailto:toshahriarshakil@gmail.com?subject=Let%27s%20build%20my%20business&body=Hi%20Shahriar%2C%20I%20want%20to%20talk%20about...">
   <img src="https://img.shields.io/badge/Tell_me_about_your_business-2563eb?style=for-the-badge" alt="Tell me about your business" />
 </a>
 
@@ -71,7 +74,7 @@ You talk to one person, not five.
 
 <div align="center">
 
-**Have an idea or a business to grow?** The fastest way to reach me is email: [shahriarshakil@gmail.com](mailto:shahriarshakil@gmail.com)
+**Have an idea or a business to grow?** Message me on [WhatsApp](https://wa.me/8801780503417) or email [toshahriarshakil@gmail.com](mailto:toshahriarshakil@gmail.com)
 
 [Portfolio](https://shahriar.netlify.app/) | [Resume](https://app.enhancv.com/share/f5e4960a/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic) | [LinkedIn](https://www.linkedin.com/in/shahriar-shakil/)
 
